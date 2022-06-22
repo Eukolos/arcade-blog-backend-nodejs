@@ -1,0 +1,11 @@
+{"level":"info","message":{"_id":"62aa03c1a16692cc3864f5c5","createdAt":"2022-06-15T16:07:29.299Z","name":"Deneme Project","updatedAt":"2022-06-15T16:07:29.299Z"},"service":"user-service"}
+{"level":"info","message":{"_id":"62ab0cf69056b61918b9db6d","createdAt":"2022-06-16T10:59:02.214Z","name":"Token denemeeeee","updatedAt":"2022-06-16T10:59:02.214Z"},"service":"user-service"}
+{"level":"info","message":{"_id":"62b0858e5e466d6d25df1ef2","createdAt":"2022-06-20T14:34:54.528Z","name":"Emin Ksy Project 1","updatedAt":"2022-06-20T14:34:54.528Z"},"service":"user-service"}
+{"level":"info","message":{"_id":"62b085985e466d6d25df1ef4","createdAt":"2022-06-20T14:35:04.065Z","name":"Emin Ksy Project 2","updatedAt":"2022-06-20T14:35:04.065Z"},"service":"user-service"}
+{"level":"info","message":{"_id":"62b085a05e466d6d25df1ef6","createdAt":"2022-06-20T14:35:12.122Z","name":"KSY Project 1","updatedAt":"2022-06-20T14:35:12.122Z"},"service":"user-service"}
+{"level":"info","message":{"_id":"62b0863ab90ae79213a3b24c","createdAt":"2022-06-20T14:37:46.509Z","name":"KSY Project 2","updatedAt":"2022-06-20T14:37:46.509Z"},"service":"user-service"}
+{"level":"info","message":{"_id":"62b087a5a7d33c0b4a01898b","createdAt":"2022-06-20T14:43:49.217Z","name":"KSY Project 3","updatedAt":"2022-06-20T14:43:49.217Z"},"service":"user-service"}
+{"level":"info","message":{"_id":"62b087c7962340d1365e3109","createdAt":"2022-06-20T14:44:23.451Z","name":"KSY Project 4","updatedAt":"2022-06-20T14:44:23.451Z"},"service":"user-service"}
+{"level":"info","message":{"_id":"62b0883b1897cd5337aa2b6f","createdAt":"2022-06-20T14:46:19.631Z","name":"KSY Project 5","updatedAt":"2022-06-20T14:46:19.631Z","user_id":"62b084f55e466d6d25df1eef"},"service":"user-service"}
+{"level":"info","message":{"_id":"62b08ddc7f1c86f940fe3b78","createdAt":"2022-06-20T15:10:20.481Z","name":"Arcade Project","updatedAt":"2022-06-20T15:10:20.481Z","user_id":"62b084f55e466d6d25df1eef"},"service":"user-service"}
+{"level":"info","message":{"_id":"62b0b1704625bb17f8eb420d","createdAt":"2022-06-20T17:42:08.047Z","name":"DENEME Project","updatedAt":"2022-06-20T17:42:08.047Z","user_id":"62b0b1344625bb17f8eb420a"},"service":"user-service"}
