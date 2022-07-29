@@ -87,7 +87,14 @@ const resetPassword = (req, res) => {
     .catch(() => res.status(httpStatus.INTERNAL_SERVER_ERROR)
     .send({error : "Şifre resetleme sırasında bir problem oluştu"}));
     
-    
+};
+
+const updatePassword = (req, res) => {
+    const new_password = passwordToHash(req.body.password)
+    modify({_id : req.user?._id}, new_password).then(updatedUser => {
+        res.status(httpStatus.OK).send(updatedUser);
+    }).catch(() => res.status(httpStatus.INTERNAL_SERVER_ERROR).send({error: "Güncelleme işlemi sırasında bir problem oluştu."}));
+
 };
 
 
@@ -99,5 +106,6 @@ module.exports = {
     projectList,
     resetPassword,
     update,
+    updatePassword
     
 };
