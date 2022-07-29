@@ -3,6 +3,7 @@ const validate = require('../middlewares/validate'); //* validate middlewares
 const schemas = require('../validations/Projects'); //* validations
 const express = require('express');
 const { index, create, update } = require('../controllers/Projects');
+
 const router = express.Router();
 
 router.route("/").get(authenticate, index);

@@ -1,5 +1,9 @@
 const User = require('../models/Users')
 
+const list = () => {
+    return User.find({});
+ };
+
 const insert = (data) => {
     //...
     const user = new User(data);
@@ -9,10 +13,6 @@ const insert = (data) => {
 const loginUser = (loginData) => {
 
     return User.findOne(loginData);
-};
-
-const list = () => {
-   return User.find({});
 };
 
 const modify = (where, data) => {
