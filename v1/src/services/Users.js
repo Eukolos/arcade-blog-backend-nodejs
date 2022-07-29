@@ -10,15 +10,17 @@ const insert = (data) => {
     return user.save();
 };
 
+const modify = (where, data) => {
+    
+    return User.findOneAndUpdate(where, data, {new: true} );
+}
+
 const loginUser = (loginData) => {
 
     return User.findOne(loginData);
 };
 
-const modify = (where, data) => {
-    
-    return User.findOneAndUpdate(where, data, {new: true} );
-}
+
 
 module.exports = {
     insert,

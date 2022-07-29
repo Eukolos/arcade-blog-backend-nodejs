@@ -28,6 +28,13 @@ const create = (req, res) => {
     });
 };
 
+const update = (req, res) => {
+    modify({_id : req.user?._id}, req.body).then(updatedUser => {
+        res.status(httpStatus.OK).send(updatedUser);
+    }).catch(() => res.status(httpStatus.INTERNAL_SERVER_ERROR).send({error: "Güncelleme işlemi sırasında bir problem oluştu."}));
+};
+
+
 const login = (req, res) => {
     req.body.password = passwordToHash(req.body.password);
     
@@ -83,11 +90,6 @@ const resetPassword = (req, res) => {
     
 };
 
-const update = (req, res) => {
-    modify({_id : req.user?._id}, req.body).then(updatedUser => {
-        res.status(httpStatus.OK).send(updatedUser);
-    }).catch(() => res.status(httpStatus.INTERNAL_SERVER_ERROR).send({error: "Güncelleme işlemi sırasında bir problem oluştu."}));
-};
 
 
 module.exports = {

@@ -9,3 +9,4 @@
 {"level":"info","message":{"_id":"62b0883b1897cd5337aa2b6f","createdAt":"2022-06-20T14:46:19.631Z","name":"KSY Project 5","updatedAt":"2022-06-20T14:46:19.631Z","user_id":"62b084f55e466d6d25df1eef"},"service":"user-service"}
 {"level":"info","message":{"_id":"62b08ddc7f1c86f940fe3b78","createdAt":"2022-06-20T15:10:20.481Z","name":"Arcade Project","updatedAt":"2022-06-20T15:10:20.481Z","user_id":"62b084f55e466d6d25df1eef"},"service":"user-service"}
 {"level":"info","message":{"_id":"62b0b1704625bb17f8eb420d","createdAt":"2022-06-20T17:42:08.047Z","name":"DENEME Project","updatedAt":"2022-06-20T17:42:08.047Z","user_id":"62b0b1344625bb17f8eb420a"},"service":"user-service"}
+{"level":"info","message":{"_id":"62e3d75be3be324c54d15586","createdAt":"2022-07-29T12:49:31.694Z","name":"Arcade Project","updatedAt":"2022-07-29T12:49:31.694Z","user_id":"62e3a9b12f055b3f9a5dac6a"},"service":"user-service"}
